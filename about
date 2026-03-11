@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - MultiRack</title>
+
+    <style>
+
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin:0;
+        background:#f4f6f8;
+        color:#333;
+      }
+
+      header{
+        background:#e9edf1;
+        padding:10px 40px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        border-bottom:1px solid #cfd6dc;
+      }
+
+      .logo img{
+        height:200px;
+      }
+
+      nav a{
+        color:#2f3a44;
+        text-decoration:none;
+        margin-left:30px;
+        font-weight:600;
+        font-size:16px;
+      }
+
+      nav a:hover{
+        opacity:.6;
+      }
+
+      .section{
+        padding:90px 20px;
+        max-width:900px;
+        margin:auto;
+        text-align:center;
+      }
+
+      .section h1{
+        color:#3e5468;
+      }
+
+      footer{
+        background:#2f3a44;
+        color:white;
+        text-align:center;
+        padding:25px;
+        margin-top:60px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <header>
+
+      <div class="logo">
+        <img src="logo.png" alt="MultiRack Logo">
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+    </header>
+
+    <section class="section">
+
+      <h1>About MultiRack</h1>
+
+      <p>
+        MultiRack designs modular spool storage systems built for flexibility
+        and customization.
+      </p>
+
+      <p>
+        Our racks are designed to support many types of spool materials such as
+        wire, filament, cord, rope, and other workshop supplies.
+      </p>
+
+      <p>
+        By combining strong printed components with structural tubing,
+        MultiRack systems can expand with your workspace.
+      </p>
+
+    </section>
+
+    <footer>
+      <p>© 2026 MultiRack</p>
+    </footer>
+
+  </body>
+</html>
